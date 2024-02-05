@@ -19,3 +19,19 @@ Cannot render console from 10.20.10.67! Allowed networks: 127.0.0.0/127.255.255.
   
 ActionController::RoutingError (No route matches [GET] "/css/pages.css.scss"):
   
+Started GET "/" for 66.81.165.164 at 2024-02-05 16:13:12 +0000
+Cannot render console from 10.20.11.49! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | Allocations: 389)
+  Rendered layout layouts/application.html.erb (Duration: 45.7ms | Allocations: 21884)
+Completed 200 OK in 52ms (Views: 47.8ms | ActiveRecord: 0.0ms | Allocations: 27128)
+
+
+Started GET "/css/pages.css.scss" for 66.81.165.164 at 2024-02-05 16:13:13 +0000
+Cannot render console from 10.20.11.254! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [GET] "/css/pages.css.scss"):
+  
